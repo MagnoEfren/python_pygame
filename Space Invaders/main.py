@@ -1,5 +1,6 @@
 # Juego  en Python con pygame
 # autor: Magno Efren - 2022
+# https://www.youtube.com/c/MagnoEfren/videos
 
 import pygame
 import random
