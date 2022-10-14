@@ -1,7 +1,6 @@
 # Juego  en Python con pygame
 # autor: Magno Efren - 2022
 # https://www.youtube.com/c/MagnoEfren/videos
-
 import pygame
 import random
  
@@ -217,7 +216,6 @@ while run:
 		grupo_enemigos.add(enemigos)		
 		if player.vida <=0:
 			run = False
-
 	# Indicador y Score
 	texto_puntuacion(window, ('  SCORE: '+ str(score)+'       '), 30, width-85, 2)
 	barra_vida(window, width-285, 0, player.vida)
